@@ -1,6 +1,7 @@
 from Tree import Node
 
 
+# DFS Search method
 def search(value, node: Node):
     if (node == None):
         return False
